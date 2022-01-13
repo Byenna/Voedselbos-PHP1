@@ -1,5 +1,23 @@
 <!-- start items to sell -->
-<div id="allItems">
+<?php
+
+$query = 'SELECT * FROM products';
+
+$result = mysqli_query($conn, $query);
+
+$fruits = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+mysqli_free_result($result);
+
+mysqli_close($conn);
+
+    
+    ?>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+   <div id="allItems">
 			<section id="form-container" class="itemsFirstRow">
 				<div class="container">
                     <div class="row">
@@ -23,3 +41,7 @@
 			</section>
 		</div>
 		<!-- end items to sell -->
+
+    </html>
+
+        
