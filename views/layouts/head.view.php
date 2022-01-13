@@ -24,6 +24,7 @@
 		crossorigin="anonymous"></script>
 	<!-- end script color change nav-bar -->
 
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/node_modules/vue/dist/vue.js"></script>
 	
 

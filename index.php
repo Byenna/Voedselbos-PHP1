@@ -30,10 +30,25 @@ require 'views/shoppingCart.view.php';
     
  }
 
+
+//  if (isset($_GET['page'])) {
+ 
+//     require 'controler/' . $_GET['page'] . '.php';
+ 
+    
+
+//      aboutFruit($_GET['page']);
+//  }
+
 // products 
+
+// require 'views/fruit.view.php';
+
 require 'views/items.view.php';
 
 require 'views/footer.view.php';
 
 require 'views/layouts/bottom.view.php';
+
+
 

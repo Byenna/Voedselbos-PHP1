@@ -1,17 +1,16 @@
 <!-- start items to sell -->
 <?php
 
-$query = 'SELECT * FROM products';
+
+$query = 'SELECT * FROM products WHERE id = 1' ;
 
 $result = mysqli_query($conn, $query);
 
-$fruits = mysqli_fetch_all($result, MYSQLI_ASSOC);
+$fruits = mysqli_fetch_assoc($result);
 
 mysqli_free_result($result);
 
 mysqli_close($conn);
-
-
 
     
     ?>
@@ -24,7 +23,7 @@ mysqli_close($conn);
 				<div class="container">
                     <div class="row">
 
-					<?php foreach($fruits as $fruit) : ?>
+					
 
                         <div class="card" style="width: 18rem;">
                         <img src="<?php echo 'assets/images/' . $fruit['image'] ?>" class="card-img-top" alt="<? $fruit['name'] ?>">
@@ -33,11 +32,11 @@ mysqli_close($conn);
                             <p class="card-text"><?php echo $fruit['description'] ?></p>
                             <p class="card-text">Prijs: €  <?php echo $fruit['price'] ?></p>
                             <a href="#" class="buttonItem btn btn-primary">Bestel</a>
-                            <h6><br /><a href="index.php?paper=<?php echo $fruit['id']; ?>" class="moreInfo">MEER INFO</a></6>
+                         
                         </div>
                         </div>
 
-                    <?php endforeach; ?>
+                  
                 
                 </div>
 				</div> 
@@ -46,5 +45,3 @@ mysqli_close($conn);
 		<!-- end items to sell -->
 
     </html>
-
-        
