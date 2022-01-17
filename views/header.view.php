@@ -28,21 +28,25 @@
 									<li><a class="dropdown-item" href="#">Onze werkwijze</a></li>
 									<li><a class="dropdown-item" href="#">Vrijwilliger worden?</a>
 									</li>
+									
 								</ul>
 
 							</li>
 						</ul>
 
 						<form class="d-flex">
-							<input class="form-control me-2" type="search" placeholder="Wat zoekt u?"
-								aria-label="Search">
-
-							<button class="bi bi-search btn btn-light"></button>
+							
+						<button class="btn btn-light">Login</button>
+							<button class="btn btn-light">Registreer</button>
 
 							<span id="basket">
 								<i @click="toggleCart" class="btn btn-light bi bi-basket"></i>
+
 							</span>
+							
+						
 						</form>
+						
 					</div>
 				</div>
 			</nav>
