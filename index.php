@@ -9,7 +9,8 @@ require 'functions/functions.php';
 require 'views/layouts/head.view.php';
 
 
-
+// require 'core/mysql.php';
+// require 'core/core.php';
 
 
 
@@ -30,19 +31,9 @@ require 'views/shoppingCart.view.php';
     
  }
 
+// require 'core/bootstrap.php';
 
-//  if (isset($_GET['page'])) {
- 
-//     require 'controler/' . $_GET['page'] . '.php';
- 
-    
-
-//      aboutFruit($_GET['page']);
-//  }
-
-// products 
-
-// require 'views/fruit.view.php';
+require 'views/register.view.php';
 
 require 'views/items.view.php';
 

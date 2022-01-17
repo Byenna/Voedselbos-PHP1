@@ -36,11 +36,11 @@
 
 						<form class="d-flex">
 							
-						<button class="btn btn-light">Login</button>
-							<button class="btn btn-light">Registreer</button>
+						<button class="btn btn-light"><a href="#">Login</a></button>
+						<button class="btn btn-light"><a href="<?php echo "index.php?page3=register&function=store" ?>">Registreer</a></button>
 
 							<span id="basket">
-								<i @click="toggleCart" class="btn btn-light bi bi-basket"></i>
+								<a href="#" ><i @click="toggleCart" class="btn btn-light bi bi-basket"></i></a>
 
 							</span>
 							
