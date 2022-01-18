@@ -1,0 +1,10 @@
+{
+    "name": "cg1/voedselbos-php1",
+    "authors": [
+        {
+            "name": "Juraia Pinas",
+            "email": "byenna21@gmail.com"
+        }
+    ],
+    "require": {}
+}
