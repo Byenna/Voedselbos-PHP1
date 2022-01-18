@@ -7,8 +7,8 @@ $page = getPage();
 $function = getFunction();
 
 
+// dd($_POST['password'], password_verify($_POST['password'], $data['password']));
 
-// dd($_SERVER['DOCUMENT_ROOT'] . '/models/' . 'items' . '.php');
 // dd("page = " . $page, "function = " . $function);
 
 // M = Model (data)
