@@ -1,7 +1,6 @@
 <?php
 
-function aboutFruit($view)
+function index($view)
 {
-
-    require 'views/' . $view . '.view.php';
+    return require $_SERVER['DOCUMENT_ROOT'] . '/assets/views/' . $view . '.view.php';
 }
