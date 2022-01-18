@@ -1,19 +1,5 @@
 <!-- start items to sell -->
-<?php
 
-
-$query = 'SELECT * FROM products WHERE id = 1' ;
-
-$result = mysqli_query($conn, $query);
-
-$fruits = mysqli_fetch_assoc($result);
-
-mysqli_free_result($result);
-
-mysqli_close($conn);
-
-    
-    ?>
 
     <!DOCTYPE html>
     <html lang="en">

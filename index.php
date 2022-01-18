@@ -2,16 +2,12 @@
 
 
 
-require 'controler/db_connection.php';
+require 'core/mysql.php';
+// require 'core/core.php';
 
 require 'functions/functions.php';
 
 require 'views/layouts/head.view.php';
-
-
-// require 'core/mysql.php';
-// require 'core/core.php';
-
 
 
 require 'views/landingpage.view.php';
@@ -31,7 +27,7 @@ require 'views/shoppingCart.view.php';
     
  }
 
-// require 'core/bootstrap.php';
+require 'core/bootstrap.php';
 
 require 'views/register.view.php';
 

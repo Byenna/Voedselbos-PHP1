@@ -15,3 +15,4 @@ function store()
 
     // header('Location: /?page=home&function=registerSuccessful');
 }
+
