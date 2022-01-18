@@ -7,7 +7,9 @@ $page = getPage();
 $function = getFunction();
 
 
-// dd("page = " . $page, "function = " . $function);
+// dd($page);
+// dd($_SERVER['DOCUMENT_ROOT'] . '/assets/views/' . $view . '.view.php');
+dd("page = " . $page, "function = " . $function);
 
 // M = Model (data)
 // V = View (html)

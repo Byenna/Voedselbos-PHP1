@@ -3,7 +3,7 @@
 <nav class="container">
 			<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-transparant fixed-top">
 				<div class="container-fluid">
-					<a class="navbar-brand fs-2 text-white" href="<?php echo "index.php" ?>">{{ appName }}</a>
+					<a class="navbar-brand fs-2 text-white" href="?page=home">{{ appName }}</a>
 
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -16,17 +16,17 @@
 
 							<li class="nav-item">
 								<a class="nav-link active text-white fs-2" aria-current="page"
-									href="<?php echo "index.php?page=items#allItems"?>" >Producten</a>
+								href="?page=items" >Producten</a>
 							</li>
 
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle text-white fs-2" href="<?php echo "index.php?page=about"?>" id="navbarDropdown"
+								<a class="nav-link dropdown-toggle text-white fs-2" id="navbarDropdown"
 									role="button" data-bs-toggle="dropdown" aria-expanded="false">Informatie
 								</a>
 
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#">Onze werkwijze</a></li>
-									<li><a class="dropdown-item" href="#">Vrijwilliger worden?</a>
+									<li><a class="dropdown-item" href="?page=about">Onze werkwijze</a></li>
+									<li><a class="dropdown-item" href="?page=vrijwilliger">Vrijwilliger worden?</a>
 									</li>
 									
 								</ul>
@@ -36,11 +36,11 @@
 
 						<form class="d-flex">
 							
-						<button class="btn btn-light"><a href="#">Login</a></button>
-						<button class="btn btn-light"><a href="<?php echo "index.php?page3=register&function=store" ?>">Registreer</a></button>
+						<button class="btn btn-light"><a href="?page=login">Login</a></button>
+						<button class="btn btn-light"><a href="?page=registreer">Registreer</a></button>
 
 							<span id="basket">
-								<a href="#" ><i @click="toggleCart" class="btn btn-light bi bi-basket"></i></a>
+								<a href="?page=shopping_cart" ><i @click="toggleCart" class="btn btn-light bi bi-basket"></i></a>
 
 							</span>
 							
@@ -52,5 +52,7 @@
 			</nav>
 		</nav>
 		<!-- end navbar -->
+
+		
 
         

@@ -24,7 +24,7 @@
 
 				<div class="col-md ">
 					<div class="buttonVrijwilliger ">
-						<a href="/assets/HTML/vrijwilliger.html"><button type="button" class="btn btn-info">Vrijwilliger
+						<a href="?page=vrijwilliger"><button type="button" class="btn btn-info">Vrijwilliger
 								worden</button></a><br><br>
 						<a href="https://www.buymeacoffee.com/"><button type="button" class="btn btn-warning"><span
 									class="buyme">Buy

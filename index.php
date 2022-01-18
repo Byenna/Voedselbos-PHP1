@@ -28,6 +28,7 @@ set_exception_handler('exception_handler');
 require 'assets/views/layouts/head.view.php';
 
 require 'assets/views/header.view.php';
+// require 'assets/views/about.view.php';
 
 require 'assets/views/landingpage.view.php';
 
@@ -38,6 +39,7 @@ require 'core/bootstrap.php';
 // Close it with the bottom end </body> and </html> tags
 require 'assets/views/footer.view.php';
 
+// Close HTML <body> and <html> section
 require 'assets/views/layouts/bottom.view.php';
 
 
@@ -46,28 +48,7 @@ require 'assets/views/layouts/bottom.view.php';
 
 
 
-// 
 
-
-
-// require 'views/shoppingCart.view.php';
-
-// //  rendering aboutPage
-//  if (isset($_GET['page2'])) {
- 
-//     require 'controler/' . $_GET['page2'] . '.php';
- 
-    
-//      about($_GET['page2']);
-     
-    
-//  }
-
-
-
-// require 'views/register.view.php';
-
-// require 'views/items.view.php';
 
 
 
