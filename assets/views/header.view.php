@@ -16,7 +16,7 @@
 
 							<li class="nav-item">
 								<a class="nav-link active text-white fs-2" aria-current="page"
-								href="?page=items" >Producten</a>
+								href="?page=items#allItems" >Producten</a>
 							</li>
 
 							<li class="nav-item dropdown">
@@ -25,7 +25,7 @@
 								</a>
 
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="?page=about">Onze werkwijze</a></li>
+									<li><a class="dropdown-item" href="?page=about#about-container">Onze werkwijze</a></li>
 									<li><a class="dropdown-item" href="?page=vrijwilliger">Vrijwilliger worden?</a>
 									</li>
 									
@@ -37,7 +37,7 @@
 						<form class="d-flex">
 							
 						<button class="btn btn-light"><a href="?page=login">Login</a></button>
-						<button class="btn btn-light"><a href="?page=registreer">Registreer</a></button>
+						<button class="btn btn-light"><a href="?page=register#form">Registreer</a></button>
 
 							<span id="basket">
 								<a href="?page=shopping_cart" ><i @click="toggleCart" class="btn btn-light bi bi-basket"></i></a>
