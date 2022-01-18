@@ -25,20 +25,20 @@ set_exception_handler('exception_handler');
 
 
 // Load the HTML <head> section
-require 'views/layouts/head.view.php';
+require 'assets/views/layouts/head.view.php';
 
-require 'views/header.view.php';
+require 'assets/views/header.view.php';
 
-require 'views/landingpage.view.php';
+require 'assets/views/landingpage.view.php';
 
 // Inject code from controller
 require 'core/bootstrap.php';
 
 
 // Close it with the bottom end </body> and </html> tags
-require 'views/footer.view.php';
+require 'assets/views/footer.view.php';
 
-require 'views/layouts/bottom.view.php';
+require 'assets/views/layouts/bottom.view.php';
 
 
 

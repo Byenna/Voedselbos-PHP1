@@ -20,7 +20,7 @@
 							</li>
 
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle text-white fs-2" href="<?php echo "index.php?page2=about#about-container"?>" id="navbarDropdown"
+								<a class="nav-link dropdown-toggle text-white fs-2" href="<?php echo "index.php?page=about"?>" id="navbarDropdown"
 									role="button" data-bs-toggle="dropdown" aria-expanded="false">Informatie
 								</a>
 

@@ -6,6 +6,7 @@ $page = getPage();
 // Get action from URL
 $function = getFunction();
 
+
 // dd("page = " . $page, "function = " . $function);
 
 // M = Model (data)
