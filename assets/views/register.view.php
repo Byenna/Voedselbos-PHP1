@@ -1,5 +1,5 @@
-
-<div id="form" class="container-fluid">
+<div id="form" class="form_view">
+<div  class="container-fluid">
 
 <form method="POST" action="?page=register&function=store">
   <h1>Registreer formulier</h1>
@@ -19,11 +19,11 @@
     <label for="exampleInputPassword1" class="form-label">Password</label>
     <input type="password" name="password" class="form-control" >
   </div>
-
+  <p>Al een account? Klik <a href="?page=login#form">hier</a> om in te loggen.</p>
   <button type="submit" value="Save" class="btn btn-primary">Submit</button>
 </form>
 </div>
-
+</div>
 
 
 

@@ -157,7 +157,26 @@ background: rgba(112, 152, 102, 0.8)
 
 #form{
     max-width: 460px;
-    margin: 20px auto;
+    margin: 200px;
+    padding: 20px;
+    background-color: #cbb09c;
+}
+
+.form_view{
+    padding-top: 10em;
+}
+/* .........shopping_cart............. */
+
+#shopping_cart{
+    max-width: 460px;
+    margin: 200px;
+    padding: 20px;
+    background-color: #cbb09c;
+}
+
+#shopping_cart_view {
+    max-width: 460px;
+    margin: 10px;
     padding: 20px;
     background-color: #cbb09c;
 }

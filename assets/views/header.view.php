@@ -36,11 +36,11 @@
 
 						<form class="d-flex">
 							
-						<button class="btn btn-light"><a href="?page=login">Login</a></button>
+						<button class="btn btn-light"><a href="?page=login#form">Login</a></button>
 						<button class="btn btn-light"><a href="?page=register#form">Registreer</a></button>
 
 							<span id="basket">
-								<a href="?page=shopping_cart" ><i @click="toggleCart" class="btn btn-light bi bi-basket"></i></a>
+								<a href="?page=shopping_cart#shopping_cart_view" ><i class="btn btn-light bi bi-basket"></i></a>
 
 							</span>
 							
