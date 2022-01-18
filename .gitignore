@@ -1,4 +1,4 @@
 /node_modules
 /vendor
 .env
-/controler/db_connection.php
+# /controler/db_connection.php

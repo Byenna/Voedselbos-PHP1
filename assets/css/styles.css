@@ -148,3 +148,7 @@ background: rgba(112, 152, 102, 0.8)
     position: relative;
     top: -30px;
   }
+
+  .bi-basket {
+     padding: 1em;
+  }

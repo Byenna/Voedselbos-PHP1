@@ -1,9 +1,7 @@
 <?php
 
-function about($view)
+function aboutFruit($view)
 {
-    
-   
 
     require 'views/' . $view . '.view.php';
 }
