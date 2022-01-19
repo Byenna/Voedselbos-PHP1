@@ -14,15 +14,14 @@ let app = new Vue({
 
     },
 
-    computed: {
-
+    mounted() {
+        this.$on('add-to-cart', (id) => {
+            this.updateCart(id)
+        });
     },
 
-
     methods: {
-        toggleCart() {
-            this.shopCart = !this.shopCart
-        },
+
         updateCart(id) {
             this.carts.push(id)
             this.cart.push(id)
@@ -39,11 +38,7 @@ let app = new Vue({
                 this.prices.splice(this.cart.indexOf(cart))
             }
         },
-        closeCart() {
-            if (this.shopCart) {
-                this.shopCart = !this.shopCart
-            }
-        },
+       
 
 
     }

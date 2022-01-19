@@ -40,8 +40,7 @@
 						<button class="btn btn-light"><a href="?page=register#form">Registreer</a></button>
 
 							<span id="basket">
-								<a href="?page=shopping_cart#shopping_cart_view" ><i class="btn btn-light bi bi-basket"></i></a>
-
+								<shopping-cart></shopping-cart>
 							</span>
 							
 						
