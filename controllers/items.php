@@ -28,3 +28,4 @@ function getData()
         'products'  => $products,
     ]);
 }
+dd($result);
