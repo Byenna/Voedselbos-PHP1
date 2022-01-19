@@ -1,16 +1,15 @@
 Vue.component('shopping-cart', {
     data: function () {
         return {
-            shopCart: false,
+            cart: window.localStorage.getItem('cart') !== null ? JSON.parse(window.localStorage.getItem('cart')) : {},
         }
     },
 
     props: {
-
+        
     },
 
     methods: {
-       
         closeCart() {
             $('.layer').fadeOut(); 
             $('.cart').fadeOut();
@@ -22,36 +21,6 @@ Vue.component('shopping-cart', {
                 direction: 'right',
             });
         },
-
-        addToLocalStorage() {
-            window.localStorage.setItem('cart', 'hallo');
-
-        },
-
-        getFromLocalStorage() {
-            let cart = window.localStorage.getItem('cart');
-            console.log(JSON.parse(cart));
-        },
-
-        addArray() {
-            let products = [
-                {
-                    name: 'apple',
-                    amount: 3,
-                },
-
-                {
-                    name: 'banana',
-                    amount: 4,
-                },
-                
-            ];
-            window.localStorage.setItem('cart', JSON.stringify(products));
-        },
-
-        addToCart(id) {
-            this.$root.$emit('add-to-cart', id);
-        },
     },
 
     template: `
@@ -59,9 +28,24 @@ Vue.component('shopping-cart', {
             <i @click="showCart" class="btn btn-light bi bi-basket"></i>
             <div class="cart">
                 <button @click.prevent="closeCart">close</button>
-                <button @click.prevent="addToLocalStorage">STORE</button>
-                <button @click.prevent="getFromLocalStorage">GET</button>
-                <button @click.prevent="addArray">ARRAY</button>
+                
+                <div class="row" v-for="item in cart.items">
+                    <div class="col-md-2">
+                        <img :src="'/assets/images/' + item.image" width="100%">
+                    </div>
+                    <div class="col-md-5">{{ item.name }}</div>
+                    <div class="col-md-1">{{ item.amount }}</div>
+                    <div class="col-md-2">{{ item.price }}</div>
+                    <div class="col-md-2">{{ item.totalPrice }}</div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5">Total</div>
+                    <div class="col-md-1">{{ cart.totalItems }}</div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2">{{ cart.totalPrice }}</div>
+                </div>
             </div>
         </div>`,
 })

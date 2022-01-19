@@ -1,14 +1,14 @@
 .cart {
-    background-color: rgb(252 252 252);
+    background-color: rgb(206, 206, 206);
     position: fixed;
     top: 0;
     height: 100%;
     width: 300px;
     z-index: 1010;
-    opacity: 0.9;
     right: 0;
     float: right;
     display: none;
+    font-size: 0.9em;
 }
 
 .basket {
