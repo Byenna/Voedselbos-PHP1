@@ -16,7 +16,7 @@
 
 							<li class="nav-item">
 								<a class="nav-link active text-white fs-2" aria-current="page"
-								href="?page=items#allItems" >Producten</a>
+								href="?page=items#allItems">Producten</a>
 							</li>
 
 							<li class="nav-item dropdown">
