@@ -1,5 +1,6 @@
-<div class="form_view" id="form" >
-  <div >
+
+
+<div class="form_view" id="form"><div class="text_cart" class="mt-7 mb-0"><h1>Login formulier</h1></div><div>
 <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
