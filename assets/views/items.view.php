@@ -3,7 +3,7 @@
     <section id="form-container" class="container">
     <div class="form_view"><div class="text_cart" class="mt-7 mb-0"></div><div>
 
-        <div class="row">
+        <div class="row justify-content-center">
             
                 
             <h1>De producten</h1>
@@ -32,6 +32,9 @@
             <?php endforeach; ?>
             </div>
             </div>
+
+
+            
         </div> 
     </section>
 </div>
