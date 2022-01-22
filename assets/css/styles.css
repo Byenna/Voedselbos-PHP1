@@ -57,19 +57,9 @@ body {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-} ----------------------items to sell------------------- */
-
-.itemsFirstRow {
-    margin-top: 54em;
-    margin-bottom: 1em;
-    
-}
+} 
 
 
-.itemsSecondRow {
-    margin-top: 4em;
-    margin-bottom: 1em;
-}
 /* footer */
 
 .footer {
@@ -123,7 +113,7 @@ background: rgba(112, 152, 102, 0.8)
 
 #form-container {
     height: 100em;
-    background-color:white;
+    background-color:#cbb09c;
   
 }
 .img-thumbnail {
@@ -152,9 +142,7 @@ background: rgba(112, 152, 102, 0.8)
     background-color: #cbb09c;
 }
 
-.form_view{
-    padding-top: 10em;
-}
+
 /* .........shopping_cart............. */
 
 #shopping_cart{
@@ -173,14 +161,15 @@ background: rgba(112, 152, 102, 0.8)
 
 .text_cart {
     max-width: 460px;
-    margin: 10px;
-    padding: 20px;
+    margin: 37px;
+    padding: 35px;
     background-color: #cbb09c; 
 }
 
 #home_text_products {
     margin: 5em;
     padding: 1em;
+    background-color: none;
  
 }
 
