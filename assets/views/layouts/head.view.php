@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -13,13 +15,12 @@
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/cart.css'>
 
-	
-
 	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/node_modules/axios/dist/axios.js"></script>
 	<script src="/node_modules/vue/dist/vue.js"></script>
-	<script src="/assets/js/components/cart.js"></script>
-	
 
+	<script src="/assets/js/components/cart.js"></script>
+	<script src="/assets/js/components/products.js"></script>
 </head>
 
 <body>
