@@ -47,5 +47,6 @@ Vue.component('products', {
                     </div>
                 </div>
             </div>
-        </div>`,
+        </div>
+        `,
 })
