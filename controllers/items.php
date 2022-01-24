@@ -9,6 +9,7 @@ function getData()
 {
     try {
         $query = "SELECT * FROM `products` WHERE `deleted_at` IS NULL";
+        
         $result = query($query);
         
         $products = $result->fetchAll(PDO::FETCH_ASSOC);
@@ -28,3 +29,4 @@ function getData()
         'products'  => $products,
     ]);
 }
+// var_dump($query);

@@ -1,16 +1,29 @@
 .cart {
-    background-color: rgb(206, 206, 206);
+    background-color:#cbb09c;
     position: fixed;
     top: 0;
     height: 100%;
-    width: 300px;
+    width: 34rem;
     z-index: 1010;
     right: 0;
     float: right;
     display: none;
     font-size: 0.9em;
+    padding: 15px;
 }
 
 .basket {
     cursor: pointer;
 }
+
+/* .cart-container {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
+.cart-container .cart-body {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 30px 0 20px;
+  margin: 20px 0 30px;
+} */
+
