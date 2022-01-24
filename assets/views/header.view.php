@@ -12,7 +12,7 @@
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item">
-						<a class="nav-link active text-white fs-2" aria-current="page" href="?page=items#allItems">Producten</a>
+						<a class="nav-link active text-white fs-2" aria-current="page" href="?page=items">Producten</a>
 					</li>
 
 					<li class="nav-item dropdown">
@@ -20,8 +20,8 @@
 						</a>
 
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="?page=about#about-container">Onze werkwijze</a></li>
-							<li><a class="dropdown-item" href="?page=vrijwilliger">Vrijwilliger worden?</a>
+							<li><a class="dropdown-item" href="?page=about">Wie zijn wij?</a></li>
+							<li><a class="dropdown-item" href="?page=volunteer">Vrijwilliger worden?</a>
 							</li>
 
 						</ul>

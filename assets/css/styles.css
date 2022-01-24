@@ -13,10 +13,14 @@ body {
     background-color: rgb(36 98 21 / 65%);
     background-attachment: fixed;
     font-family: cardenio-modern ,Helvetica,Arial,sans-serif;
-    
-   
-    
+       
 }
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
 
 /* ------------landing text-------------------- */
 #landingtext {
@@ -65,13 +69,20 @@ body {
 
 /* footer */
 
-.footer {
-    background-color:rgb(36 98 21);
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:#cbb09c;
     height: 15em;
     padding-top: 2em;
-   
-    
 }
+
+
+
+
 .buttonVrijwilliger {
     margin-top: 1em;
     padding-left: 10em;
@@ -86,25 +97,10 @@ body {
 }
 
 
-#allItems {
-   
-    margin-top: 30em;
-
-}
-
 #about-container {
-    height: 44em;
-    background-color:white;
-    
-}
-#img-container{
-    width: 100%;
-    height: 40em;
-    background: url(/assets/images/ED.jpg);
-    background-color:white;
-    background-attachment: fixed;
-    background-size: cover;
-   
+    height: 100%;
+    background-color:#cbb09c;
+       
 }
 
 .overlay{
@@ -115,7 +111,7 @@ background: rgba(112, 152, 102, 0.8)
 }
 
 #form-container {
-    height: 100em;
+    height: 100%;
     background-color:#cbb09c;
   
 }
@@ -194,5 +190,10 @@ img{
 
 img:hover {
 	transform: scale(1.1);
+}
+
+.space {
+    width: 3rem;
+    height: 13rem;
 }
 

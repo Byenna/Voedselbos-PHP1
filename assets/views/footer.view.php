@@ -1,5 +1,8 @@
-<footer class="footer">
-	<div class="container">
+</div>
+   <footer id="footer">
+
+
+<div class="container">
 		<div class="row">
 
 			<div class="col-md">
@@ -19,7 +22,7 @@
 
 			<div class="col-md ">
 				<div class="buttonVrijwilliger ">
-					<a href="?page=vrijwilliger"><button type="button" class="btn btn-info">Vrijwilliger
+					<a href="?page=volunteer"><button type="button" class="btn btn-info">Vrijwilliger
 					worden</button></a><br><br>
 					<a href="https://www.buymeacoffee.com/"><button type="button" class="btn btn-warning"><span
 					class="buyme">Buy
@@ -36,4 +39,8 @@
 			</div>
 		</div>
 	</div>
-</footer>
+
+
+
+  
+

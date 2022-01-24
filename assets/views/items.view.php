@@ -1,14 +1,21 @@
-<div id="allItems">
-    <section id="form-container" class="itemsFirstRow">
-        <div class="container">
-            <div class="row">
-                <div id="home_text_products">
-                    <h1>De producten</h1>
-                </div>
+<section id="form-container">
+    <div class="container">
 
-                <products></products>
-            </div>
+        <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" id="home_text_products"><h1>De producten</h1></div>
+        <div class="col-md-4"></div>
         </div>
-    </section>
-</div>
-<!-- end items to sell -->
+
+        <products></products>
+
+        <div class="row">
+        <div class="col space"></div>
+        </div>
+
+        <div class="row">
+        <div class="col space"></div>
+        </div>
+    </div>
+</section>
+

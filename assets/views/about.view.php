@@ -1,8 +1,10 @@
-<!-- start about section -->
 <div id="about-container" class="container-fluid">
 	<div class="row">
-		<div class="col">
-		<h2>Onze Voedselbos</h2>
+    <div class="col space"></div>
+</div>
+	<div class="row">
+		<div class="col-lg-6 text-white">
+		<h2>Wie zijn wij?</h2>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid, quo architecto incidunt
 		molestiae tempore inventore animi. Quasi ullam soluta id dolorum assumenda quisquam earum fuga,
 		debitis rerum dolorem modi!</p>
@@ -11,10 +13,13 @@
 		perferendis, labore vero vitae?</p>
 		</div>
 
-		<div class="col">
-		<img class="img-fluid img-thumbnail rounded mx-auto d-block" src="/assets/images/salade.jpg" alt="">
+		<div class="col-lg-6">
+		<img class="img-fluid img-thumbnail rounded mx-auto d-block" src="/assets/images/ed.jpg" alt="">
 		</div>
-
+		<div class="row">
+    <div class="col space"></div>
+</div>
 	</div>
 </div>
-<!-- end about section -->
+
+

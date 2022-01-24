@@ -1,4 +1,5 @@
 </main>
+
 	<!-- einde vue section -->
 
 	<script src="/assets/js/app.js"></script>
