@@ -1,3 +1,5 @@
+@font-face { font-family: cardenio-modern; src: url('/assets/css/fonts/Cardenio\ Modern\ Std.ttf'); } 
+
 /* ------------nav bar--------------- */
 .scrolled {
     background-color: rgb(36 98 21 / 65%);
@@ -10,6 +12,7 @@ body {
     background-image: url("/assets/images/womanEatsApple.jpg");
     background-color: rgb(36 98 21 / 65%);
     background-attachment: fixed;
+    font-family: cardenio-modern ,Helvetica,Arial,sans-serif;
     
    
     
