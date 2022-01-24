@@ -104,7 +104,7 @@ let app = new Vue({
 
             return {
                 id: product.id,
-                name: product.name,
+                name: product.title,
                 image: product.image,
                 price: price,
                 amount: 1,

@@ -26,7 +26,7 @@ if (!isAjax()) {
     // Load the HTML <head> section
     require 'assets/views/layouts/head.view.php';
    
-    // $content = [];
+    $content = [];
     // dd($products);
 
     require 'assets/views/header.view.php';

@@ -40,9 +40,10 @@ Vue.component('products', {
                 <div class="card">
                     <img :src="'/assets/images/' + product.image" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">{{ product.name }}</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p>Stock: {{ product.stock }}</p>
+                        <h5 class="card-title">{{ product.title }}</h5>
+                        <p class="card-text">{{ product.description }}</p>
+                        <p class="card-text"> € {{ product.price }}</p>
+                        <p>Voorraad: {{ product.stock }}</p>
                         <input type="button" class="btn btn-primary" :disabled="product.stock === 0" @click="addToCart(product)" value="Order">
                     </div>
                 </div>
