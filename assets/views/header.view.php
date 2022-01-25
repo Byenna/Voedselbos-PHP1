@@ -34,9 +34,9 @@
 					<button class="btn btn-light"><a href="?page=login#form">Login</a></button>
 					<button class="btn btn-light"><a href="?page=register#form">Registreer</a></button>
 
-					<span id="basket">
+					
 						<shopping-cart ref="shoppingCart"></shopping-cart>
-					</span>
+						
 
 
 				</form>

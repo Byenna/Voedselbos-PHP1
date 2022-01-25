@@ -1,8 +1,8 @@
-<div id="about-container" class="container-fluid">
+<div id="about-container" class="container-fluid bg-warning">
 	<div class="row">
     <div class="col space"></div>
 </div>
-	<div class="row">
+	<div class="row ">
 		<div class="col-lg-6 text-white">
 		<h2>Wie zijn wij?</h2>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid, quo architecto incidunt

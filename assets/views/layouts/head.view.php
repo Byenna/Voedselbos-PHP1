@@ -15,10 +15,14 @@
 
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/cart.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/form-validation.css'>
 
 	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/node_modules/axios/dist/axios.js"></script>
 	<script src="/node_modules/vue/dist/vue.js"></script>
+	<script src="/node_modules/slick-animation/bower.json"></script>
+
+	<script src="/assets/js/form-validation.js"></script>
 
 	<script src="/assets/js/components/cart.js"></script>
 	<script src="/assets/js/components/products.js"></script>
@@ -29,6 +33,4 @@
 
 	<!-- start Vue section -->
 	<main id="app">
-	<div id="page-container">
-   <div id="content-wrap">
 		<div class="layer"></div>
