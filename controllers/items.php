@@ -29,4 +29,3 @@ function getData()
         'products'  => $products,
     ]);
 }
-// var_dump($query);

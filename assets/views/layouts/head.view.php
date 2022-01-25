@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
 
+
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/cart.css'>
 
@@ -21,6 +22,7 @@
 
 	<script src="/assets/js/components/cart.js"></script>
 	<script src="/assets/js/components/products.js"></script>
+	
 </head>
 
 <body>

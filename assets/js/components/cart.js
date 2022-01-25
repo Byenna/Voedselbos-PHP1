@@ -60,7 +60,7 @@ Vue.component('shopping-cart', {
                     <div class="col-md-2"></div>
                     <div class="col-md-5 btn btn-info my-1">Verder winkelen</div>
                     <div class="col-md-1"></div>
-                    <a href="page-checkout.html" class="col-md-2 btn btn-success my-1">Afrekenen</a>
+                    <a href="/?page=checkout" class="col-md-2 btn btn-success my-1">Afrekenen</a>
                     <div class="col-md-2"></div>
                 </div>
             </div>
