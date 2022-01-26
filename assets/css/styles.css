@@ -1,20 +1,26 @@
 @font-face { font-family: cardenio-modern; src: url('/assets/css/fonts/Cardenio\ Modern\ Std.ttf'); } 
 
-/* ------------nav bar--------------- */
-.scrolled {
-    background-color: rgb(36 98 21 / 65%);
-    transition: background 3s;
-}
-
-/* ----------backgroundImage----------------- */
 
 body {
     background-image: url("/assets/images/website_images/woman_eats_apple.jpg");
-    background-color: rgb(36 98 21 / 65%);
+    background-color: #a2b761;
     background-attachment: fixed;
     font-family: cardenio-modern ,Helvetica,Arial,sans-serif;
-       
+    color: #233411;
 }
+
+.btn {
+    background-color: #a2b761;
+}
+
+
+
+/* ------------nav bar--------------- */
+
+
+/* ----------backgroundImage----------------- */
+
+
 
 p {
     font-family:Arial, Helvetica, sans-serif;
@@ -22,71 +28,6 @@ p {
 
 
 
-/* ------------landing text-------------------- */
-#landingtext {
-    margin-top: 6em;
-    margin-bottom: 10em;
-    font-size: 3em;
-    text-align: left;
-
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
-}
-
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-} 
-
-
-/* footer */
-
-footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color:#cbb09c;
-    height: 15em;
-    padding-top: 2em;
-}
-
-
-
-
-.buttonVrijwilliger {
-    margin-top: 1em;
-    padding-left: 10em;
-}
 
 .quote {
     
@@ -200,6 +141,8 @@ img:hover {
     width: 3rem;
     height: 13rem;
 }
+
+
 
 /* checkout */
 .bd-placeholder-img {

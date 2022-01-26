@@ -3,7 +3,7 @@
 </div>
 
 <div class="row">
-    <div class="col-md-6 d-flex justify-content-center text-white"><h1>Bedankt voor uw registratie!</h1></div>
+    <div class="col-md-6 d-flex justify-content-center "><h1>Bedankt voor uw registratie!</h1></div>
     <div class="col-md-3 "></div>
     <div class="col-md-3"></div>
 </div>

@@ -1,5 +1,5 @@
 .cart {
-    background-color:#cbb09c;
+    background-color:#767971;
     position: fixed;
     top: 0;
     height: 100%;
@@ -17,10 +17,10 @@
 }
 
 .border_image_cart {
-  border-color:aqua;
+  border-color:#a2b761;
   border-width: 5px;
   border-style: solid;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 /* .cart-container {

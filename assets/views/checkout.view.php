@@ -4,7 +4,7 @@
             </div>   
             
 <div class="container">
-            <div class="row text-white">
+            <div class="row ">
             <div class="col text-center mb-4"><h1>Afrekenen</h1></div>
             </div>
   

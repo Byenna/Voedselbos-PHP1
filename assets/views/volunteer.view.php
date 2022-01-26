@@ -8,7 +8,7 @@
       </div>
       <div class="col-9">
         <section class="container-fluid">
-          <span class="vrijwilligerText  d-block p-1 bg-success text-white">
+          <span class="vrijwilligerText  d-block p-1 bg-success ">
             <h1 class="textVrijwilliger ">Wordt ook vrijwilliger in ons Voedselbos!</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi mollitia architecto fugiat
               quia. Odio,
@@ -37,11 +37,11 @@
               voluptate!</p>
           </span>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="text-white form-label">Email address</label>
+            <label for="exampleFormControlInput1" class=" form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class="  mb-3">
-            <label for="exampleFormControlTextarea1" class="text-white form-label">Vertel in het
+            <label for="exampleFormControlTextarea1" class=" form-label">Vertel in het
               kort
               waarom u vrijwilliger wil worden</label>
             <textarea class=" motivationblock form-control" id="exampleFormControlTextarea1" rows="3"></textarea>

@@ -1,4 +1,4 @@
-// -------------------Navbar landingpage--------
+// -------------------Navbar home_page--------
 $(function () {
     $(document).scroll(function () {
         var $nav = $("#navbar");
