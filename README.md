@@ -1,9 +1,11 @@
 # Voedselbos-PHP1
-This is an assignment from the Code Gorilla bootcamp
+This is an assignment from the Code Gorilla bootcamp using flat php.
+<img src="/assets/images/website_images/woman_eats_apple.jpg">
+
 
 # Colors used on this site
 
-<img src='/assets/images/website_images/palette.png'>
+<img src='/assets/images/website_images/palette.png' width="200" height="100">
 
 /* CSS HEX */
 --verdigris: #566436;
