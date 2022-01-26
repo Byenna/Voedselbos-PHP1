@@ -41,7 +41,7 @@ Vue.component('shopping-cart', {
                 </div>
 
                 <div class="row" v-for="item in cart.items">
-                    <div class="col-md-2"><img :src="'/assets/images/' + item.image" width="100%"></div>                   
+                    <div class="col-md-3 "><img class='border_image_cart' :src="'/assets/images/' + item.image" width="100%"></div>                   
                     <div class="col-md-5">{{ item.name }}</div>
                     <div class="col-md-1">{{ item.amount }}</div>
                     <div class="col-md-2"> € {{ item.price }}</div>

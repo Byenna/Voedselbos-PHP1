@@ -7,7 +7,7 @@
 
 	<title>Voedselbos</title>
 
-	<link rel="icon" href="/assets/images/logo.png" sizes="32x32">
+	<link rel="icon" href="/assets/images/website_images/logo.png" sizes="32x32">
 	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
@@ -20,7 +20,7 @@
 	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/node_modules/axios/dist/axios.js"></script>
 	<script src="/node_modules/vue/dist/vue.js"></script>
-	<script src="/node_modules/slick-animation/bower.json"></script>
+	
 
 	<script src="/assets/js/form-validation.js"></script>
 

@@ -16,6 +16,13 @@
     cursor: pointer;
 }
 
+.border_image_cart {
+  border-color:aqua;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
 /* .cart-container {
   border: 1px solid rgba(0, 0, 0, 0.05);
   padding: 30px;

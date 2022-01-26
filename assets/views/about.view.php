@@ -14,7 +14,7 @@
 		</div>
 
 		<div class="col-lg-6">
-		<img class="img-fluid img-thumbnail rounded mx-auto d-block" src="/assets/images/ed.jpg" alt="">
+		<img class="img-fluid img-thumbnail rounded mx-auto d-block" src="/assets/images/website_images/ed.jpg" alt="">
 		</div>
 		<div class="row">
     <div class="col space"></div>
