@@ -12,16 +12,16 @@
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item">
-						<a class="nav-link active  fs-2 text-white" aria-current="page" href="?page=items">Producten</a>
+						<a class="nav-link active  fs-1 text-white" aria-current="page" href="?page=items">Producten</a>
 					</li>
 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle  fs-2 text-white" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informatie
+						<a class="nav-link dropdown-toggle  fs-1 text-white" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informatie
 						</a>
 
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="?page=about">Wie zijn wij?</a></li>
-							<li><a class="dropdown-item" href="?page=volunteer">Vrijwilliger worden?</a></li>
+							<li><a class="dropdown-item fs-4" href="?page=about">Wie zijn wij?</a></li>
+							<li><a class="dropdown-item fs-4" href="?page=volunteer">Vrijwilliger worden?</a></li>
 
 						</ul>
 
