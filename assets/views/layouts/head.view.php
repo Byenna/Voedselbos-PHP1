@@ -12,6 +12,7 @@
 	<link rel='stylesheet' href='/node_modules/bootstrap-icons/font/bootstrap-icons.css'>
 	<link rel='stylesheet' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'>
 
+	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/about.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/forms.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/items.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>

@@ -25,6 +25,14 @@
     background-color: rgba(86,100,54,65%); 
 }
 
+.img_items {
+	transition: all 1s;
+}
+
+.img_items:hover {
+	transform: scale(1.1);
+}
+
 /* #home_text_products {
     margin: 5em;
     padding: 1em;
