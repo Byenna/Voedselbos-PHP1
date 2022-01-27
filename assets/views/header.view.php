@@ -30,8 +30,8 @@
 
 				<form class="d-flex ">
 
-					<a class="btn btn_login fs-3" type="button" href="?page=login#form">Login</a>
-					<a class="btn btn_register fs-3" type="button" href="?page=register#form">Registreer</a>
+					<a class="btn btn_login fs-3" type="button" href="?page=login">Login</a>
+					<a class="btn btn_register fs-3" type="button" href="?page=register">Registreer</a>
 
 					
 						<shopping-cart ref="shoppingCart"></shopping-cart>
