@@ -1,18 +1,20 @@
-
+<section class="bg-overlay">
   <div class="row">
-            <div class="col space"></div>
-            </div>   
+  <div class="col space_above_content"></div>
+  </div>
+
+    <div class="container-xl">
             
-<div class="container">
+<!-- <div class="container"> -->
             <div class="row ">
-            <div class="col text-center mb-4"><h1>Afrekenen</h1></div>
+            <div class="col text-center text-white display-1 mb-4"><h1 class='display-1'>Afrekenen</h1></div>
             </div>
-  
+            <div class="fw-bold fs-5">
     <div class="row g-5">
-      <div class="col-md-5 col-lg-4 order-md-last">
+      <div class="form_register col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Your cart</span>
-          <span class="badge bg-primary rounded-pill">3</span>
+          <span class="fs-3">Uw bestellingen</span>
+          <span class="badge rounded-pill">3</span>
         </h4>
         <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm">
@@ -56,8 +58,8 @@
           </div>
         </form>
       </div>
-      <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
+      <div class="form_register col-md-7 col-lg-8">
+        <h4 class="mb-3 fs-3">Factuur adres</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
@@ -207,19 +209,18 @@
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          <button class="fs-3 btn my-2" type="submit">Afrekenen</button>
         </form>
       </div>
     </div>
   </main>
 
+
   
 </div>
 
-<div class="row">
-            <div class="col space"></div>
-            </div>
 
+  
 
  
 

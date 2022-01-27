@@ -2,7 +2,7 @@
     <div class="container">
     
         <div class="row">
-            <div class="col space_above_items"></div>
+            <div class="col space_above_content"></div>
         </div>
 
         <div class="row mb-4 ">
@@ -14,7 +14,7 @@
         <products></products>
 
         <div class="row">
-        <div class="col space_under_items"></div>
+        <div class="col space_under_content"></div>
         </div>
     </div>
 </section>

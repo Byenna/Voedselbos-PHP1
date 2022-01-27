@@ -1,6 +1,6 @@
 <section class="bg-overlay">
   <div class="row">
-  <div class="col space_above_items"></div>
+  <div class="col space_above_content"></div>
   </div>
 
     <div class="container-xl">
@@ -45,7 +45,7 @@
     </div>
 
   <div class="row">
-  <div class="col space_under_items"></div>
+  <div class="col space_under_content"></div>
   </div>
 </section>
 

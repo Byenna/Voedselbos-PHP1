@@ -1,60 +1,48 @@
-<div class="container">
-<div class="row">
-    <div class="col space"></div>
-</div>
+<section class="bg-overlay ">
+
+  <div class="row">
+    <div class="col space_above_content"></div>
+  </div>
+
+  <div class="container-xl">
+    <h2 class="text-center text-white display-1">Wordt ook vrijwilliger in ons Voedselbos!</h2>
+  </div>
+
+  <div class="container-xl rounded bg_section_volunteer">
     <div class="row">
-      <div class="col">
 
+      <div class="wrapper">
+        <img class="img-responsive myimage" src="/assets/images/website_images/volunteer.jpg">
+        <h5> Foto: Anna Shvets via Pexels</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid, quo architecto incidunt
+          molestiae tempore inventore animi. Quasi ullam soluta id dolorum assumenda quisquam earum fuga,
+          debitis rerum dolorem modi!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam maxime magnam, neque illum nam
+          error dolor voluptatem quisquam officia ex repellendus minus tenetur reiciendis corporis rerum
+          perferendis, labore vero vitae?</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid, quo architecto incidunt
+          molestiae tempore inventore animi. Quasi ullam soluta id dolorum assumenda quisquam earum fuga,
+          debitis rerum dolorem modi!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam maxime magnam, neque illum nam
+          error dolor voluptatem quisquam officia ex repellendus minus tenetur reiciendis corporis rerum
+          perferendis, labore vero vitae?</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum</p>
       </div>
-      <div class="col-9">
-        <section class="container-fluid">
-          <span class="vrijwilligerText  d-block p-1 bg-success ">
-            <h1 class="textVrijwilliger ">Wordt ook vrijwilliger in ons Voedselbos!</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi mollitia architecto fugiat
-              quia. Odio,
-              eligendi, dicta, excepturi iure asperiores fugiat quasi rem molestias veniam nulla enim
-              aperiam facilis ab.
-              Sapiente?lorem*20</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde minus fugiat repellat, minima
-              molestias
-              nesciunt corrupti reiciendis exercitationem porro eum, quas dolore culpa. Asperiores non
-              ratione officiis
-              hic porro similique?
-              Sapiente possimus doloribus dolorem velit magnam culpa ex impedit, fugiat repellendus ut
-              pariatur maxime
-              facilis reprehenderit enim aliquid nisi esse vero eveniet. Velit est sunt laborum fugiat
-              quaerat sapiente
-              excepturi!
-              Earum, tempore corrupti fugit nam eius quae nobis aspernatur corporis, dignissimos
-              voluptates officiis amet,
-              atque unde repellendus molestiae! Deserunt molestiae quidem odio veritatis accusamus dicta
-              cum! Optio
-              tenetur ex consequuntur.
-              Vel praesentium fugiat, deleniti earum ipsa ipsam incidunt eligendi debitis nam maiores
-              magnam! Harum
-              architecto minus sit, illo quia nisi obcaecati aliquid magnam id perferendis tempora, saepe,
-              quaerat dicta
-              voluptate!</p>
-          </span>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class=" form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="  mb-3">
-            <label for="exampleFormControlTextarea1" class=" form-label">Vertel in het
-              kort
-              waarom u vrijwilliger wil worden</label>
-            <textarea class=" motivationblock form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </section>
-      </div>
-      <div class="col">
-
-      </div>
-
-      <div class="row">
-    <div class="col space"></div>
-</div>
-
     </div>
   </div>
+
+  <div class="row">
+    <div class="col space_under_content"></div>
+  </div>
+</section>
