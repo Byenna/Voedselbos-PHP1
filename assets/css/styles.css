@@ -7,6 +7,7 @@ body {
     background-attachment: fixed;
     font-family: cardenio-modern ,Helvetica,Arial,sans-serif;
     color: #233411;
+    letter-spacing: 1px;
 }
 
 .btn {
@@ -14,11 +15,6 @@ body {
 }
 
 
-
-/* ------------nav bar--------------- */
-
-
-/* ----------backgroundImage----------------- */
 
 
 
@@ -55,11 +51,11 @@ width: 100%;
 background: rgba(112, 152, 102, 0.8)
 }
 
-#form-container {
+/* #form-container {
     height: 100%;
     background-color:#cbb09c;
   
-}
+} */
 .img-thumbnail {
  max-height: 40em;
  margin-top: 3em;
@@ -110,12 +106,6 @@ background: rgba(112, 152, 102, 0.8)
     background-color: #cbb09c; 
 }
 
-#home_text_products {
-    margin: 5em;
-    padding: 1em;
-    background-color: none;
- 
-}
 
 .layer {
     position: fixed;
@@ -137,10 +127,10 @@ img:hover {
 	transform: scale(1.1);
 }
 
-.space {
+/* .space {
     width: 3rem;
     height: 13rem;
-}
+} */
 
 
 

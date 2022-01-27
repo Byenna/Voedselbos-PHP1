@@ -1,0 +1,32 @@
+.img_items {
+    height: 20em;
+    width: auto;
+}
+
+.card_body_items {
+    height: 20em;
+    width: auto;
+  
+}
+
+.space_above_items {
+    height: 7em;
+}
+
+.space_under_items {
+    height: 13em;
+}
+
+/* .background_section_items {
+    background-color: rgba(86,100,54,80%); 
+} */
+
+.bg-overlay {
+    background-color: rgba(86,100,54,65%); 
+}
+
+/* #home_text_products {
+    margin: 5em;
+    padding: 1em;
+    background-color: none;
+} */
