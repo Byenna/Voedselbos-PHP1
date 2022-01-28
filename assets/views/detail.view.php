@@ -1,278 +1,105 @@
-<div class="row">
-            <div class="col space"></div>
-            </div>
+<section class="bg-overlay ">
 
-<section class="single-product">
-	<div class="container bg-secondary">
-		
-		<div class="row mt-20">
-			<div class="col-md-5">
-				<div class="single-product-slider">
-					<div id='carousel-custom' class='carousel slide' data-ride='carousel'>
-						<div class='carousel-outer'>
-							<!-- me art lab slider -->
-							<div class='carousel-inner '>
-								<div class='item active'>
-									<img src='/assets/images/appels.jpg' width="400" height="600" alt='' data-zoom-image="images/shop/single-products/product-1.jpg" />
-								</div>
-								<div class='item'>
-									<img src='images/shop/single-products/product-2.jpg' alt='' data-zoom-image="images/shop/single-products/product-2.jpg" />
-								</div>
-								
-								<div class='item'>
-									<img src='images/shop/single-products/product-3.jpg' alt='' data-zoom-image="images/shop/single-products/product-3.jpg" />
-								</div>
-								<div class='item'>
-									<img src='images/shop/single-products/product-4.jpg' alt='' data-zoom-image="images/shop/single-products/product-4.jpg" />
-								</div>
-								<div class='item'>
-									<img src='images/shop/single-products/product-5.jpg' alt='' data-zoom-image="images/shop/single-products/product-5.jpg" />
-								</div>
-								<div class='item'>
-									<img src='images/shop/single-products/product-6.jpg' alt='' data-zoom-image="images/shop/single-products/product-6.jpg" />
-								</div>
-								
-							</div>
-							
-							<!-- sag sol -->
-							<a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
-								<i class="tf-ion-ios-arrow-left"></i>
-							</a>
-							<a class='right carousel-control' href='#carousel-custom' data-slide='next'>
-								<i class="tf-ion-ios-arrow-right"></i>
-							</a>
-						</div>
-						
-						<!-- thumb -->
-						<ol class='carousel-indicators mCustomScrollbar meartlab'>
-							<li data-target='#carousel-custom' data-slide-to='0' class='active'>
-								<img src='images/shop/single-products/product-1.jpg' alt='' />
-							</li>
-							<li data-target='#carousel-custom' data-slide-to='1'>
-								<img src='images/shop/single-products/product-2.jpg' alt='' />
-							</li>
-							<li data-target='#carousel-custom' data-slide-to='2'>
-								<img src='images/shop/single-products/product-3.jpg' alt='' />
-							</li>
-							<li data-target='#carousel-custom' data-slide-to='3'>
-								<img src='images/shop/single-products/product-4.jpg' alt='' />
-							</li>
-							<li data-target='#carousel-custom' data-slide-to='4'>
-								<img src='images/shop/single-products/product-5.jpg' alt='' />
-							</li>
-							<li data-target='#carousel-custom' data-slide-to='5'>
-								<img src='images/shop/single-products/product-6.jpg' alt='' />
-							</li>
-							<li data-target='#carousel-custom' data-slide-to='6'>
-								<img src='images/shop/single-products/product-7.jpg' alt='' />
-							</li>
-						</ol>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-7">
-				<div class="single-product-details">
-					<h2>Eclipse Crossbody</h2>
-					<p class="product-price">$300</p>
-					
-					<p class="product-description mt-20">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum dicta quod, quia doloremque aut deserunt commodi quis. Totam a consequatur beatae nostrum, earum consequuntur? Eveniet consequatur ipsum dicta recusandae.
-					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, velit, sunt temporibus, nulla accusamus similique sapiente tempora, at atque cumque assumenda minus asperiores est esse sequi dolore magnam. Debitis, explicabo.</p>
-					<div class="color-swatches">
-						<span>color:</span>
-						<ul>
-							<li>
-								<a href="#!" class="swatch-violet"></a>
-							</li>
-							<li>
-								<a href="#!" class="swatch-black"></a>
-							</li>
-							<li>
-								<a href="#!" class="swatch-cream"></a>
-							</li>
-						</ul>
-					</div>
-					<div class="product-size">
-						<span>Size:</span>
-						<select class="form-control">
-							<option>S</option>
-							<option>M</option>
-							<option>L</option>
-							<option>XL</option>
-						</select>
-					</div>
-					<div class="product-quantity">
-						<span>Quantity:</span>
-						<div class="product-quantity-slider">
-							<input id="product-quantity" type="text" value="0" name="product-quantity">
-						</div>
-					</div>
-					<div class="product-category">
-						<span>Categories:</span>
-						<ul>
-							<li><a href="product-single.html">Products</a></li>
-							<li><a href="product-single.html">Soap</a></li>
-						</ul>
-					</div>
-					<a href="cart.html" class="btn btn-main mt-20">Add To Cart</a>
-				</div>
-			</div>
-		</div>
-	<!-- ======================================================================= hier komt product info -->
-	</div>
-</section>
-<section class="products related-products section">
-	<div class="container bg-primary">
-		<div class="row">
-			<div class="title text-center">
-				<h2>Related Products</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="product-item">
-					<div class="product-thumb">
-						<span class="bage">Sale</span>
-						<img class="img-responsive" src="images/shop/products/product-5.jpg" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h4><a href="product-single.html">Reef Boardsport</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="images/shop/products/product-1.jpg" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h4><a href="product-single.html">Rainbow Shoes</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="images/shop/products/product-2.jpg" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h4><a href="product-single.html">Strayhorn SP</a></h4>
-						<p class="price">$230</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="images/shop/products/product-3.jpg" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h4><a href="product-single.html">Bradley Mid</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>
-
-
-
-<!-- Modal -->
-<div class="modal product-modal fade" id="product-modal">
-	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		<i class="tf-ion-close"></i>
-	</button>
-  	<div class="modal-dialog " role="document">
-    	<div class="modal-content">
-	      	<div class="modal-body">
-	        	<div class="row">
-	        		<div class="col-md-8">
-	        			<div class="modal-image">
-		        			<img class="img-responsive" src="images/shop/products/modal-product.jpg" />
-	        			</div>
-	        		</div>
-	        		<div class="col-md-3">
-	        			<div class="product-short-details">
-	        				<h2 class="product-title">GM Pendant, Basalt Grey</h2>
-	        				<p class="product-price">$200</p>
-	        				<p class="product-short-description">
-	        					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-	        				</p>
-	        				<a href="#!" class="btn btn-main">Add To Cart</a>
-	        				<a href="#!" class="btn btn-transparent">View Product Details</a>
-	        			</div>
-	        		</div>
-	        	</div>
-	        </div>
-    	</div>
-  	</div>
-</div>
   <div class="row">
-            <div class="col space"></div>
-            </div>
-   
+    <div class="col space_above_content"></div>
+  </div>
+
+  <div class="container-xl ">
+    <h2 class="text-center text-white display-1">Tomaten</h2>
+</div>
+
+  <div class="container-xl pt-4 detail_background">
+  <product></product>
+
+<!-- Tabs or Pills can be used in a card with the help of .nav-{tabs|pills} and .card-header-{tabs|pills} classes -->
+<div class="card card_detail">
+	<div class="card-header">
+	  <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+		
+	  <li class="nav-item" role="presentation">
+		  <a class="nav-link active fs-2" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Omschrijving</a>
+		</li>
+	   
+		<li class="nav-item" role="presentation">
+		  <a class="nav-link fs-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specificatie</a>
+		</li>
+  
+		<li class="nav-item" role="presentation">
+		  <a class="nav-link fs-2" id="third-tab" data-bs-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Bezorging</a>
+		</li>
+	   
+	  </ul>
+	</div>
+	<div class="card-body">
+	  <div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto tempora quaerat ullam ab fuga quo possimus dolor totam officia pariatur dolores, sunt nihil dolorum facilis nulla praesentium laborum. Aperiam aut id accusantium nobis ducimus eligendi, eius quos incidunt praesentium saepe sapiente amet rerum dolorum natus modi? Optio, nostrum. Tempora quam eaque iusto, quisquam corporis sunt. Dicta dolores minus sunt voluptatibus itaque non, voluptas, maxime dolore nam nisi sequi tempora fugiat laboriosam veniam? Ex facere qui autem? Magni reiciendis dicta esse recusandae accusamus ea, officia debitis laboriosam voluptates ullam iste exercitationem atque delectus veniam! Sapiente consequuntur ea minima debitis incidunt a libero! Velit temporibus dignissimos ea voluptates minus commodi, tenetur quisquam excepturi corrupti molestias libero inventore rerum magnam dicta, deserunt maiores cumque amet laboriosam sed mollitia dolorem perferendis ducimus? Atque quibusdam esse quis nisi, mollitia fugiat molestias natus reprehenderit ratione deleniti eum beatae assumenda labore eligendi eveniet perspiciatis qui. Excepturi aut asperiores placeat nisi omnis vel nam inventore, adipisci ex molestiae blanditiis harum dolorem ullam vitae perspiciatis id voluptate impedit, distinctio optio quibusdam? Placeat recusandae voluptas quas nulla quaerat consectetur doloribus totam accusantium. Et perspiciatis accusantium placeat, dolorem non vel. Molestiae repellat accusamus eum alias dolore? Tempore expedita odit saepe!</p></div>
+		<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto tempora quaerat ullam ab fuga quo possimus dolor totam officia pariatur dolores, sunt nihil dolorum facilis nulla praesentium laborum. Aperiam aut id accusantium nobis ducimus eligendi, eius quos incidunt praesentium saepe sapiente amet rerum dolorum natus modi? Optio, nostrum. Tempora quam eaque iusto, quisquam corporis sunt. Dicta dolores minus sunt voluptatibus itaque non, voluptas, maxime dolore <ul>
+			<li>deserunt maiores cumque amet laboriosam sed mollitia dolorem perferendi </li>
+			<li>, s ducimus? Atque quibusdam esse quis nisi, mollitia fugiat molestias natus reprehenderit ratione deleniti eum beatae assumenda labore eligendi eveniet perspiciatis qui. Excepturi au</li>
+			<li>poribus dignissimos ea voluptates minus commodi, tenetur quisquam excepturi corrupti molestias libero inventore rerum magnam dictat asperiores placeat nisi omnis vel nam inventore</li>
+		</ul> <p class="fw-bold">nam nisi sequi tempora fugiat laboriosam veniam? Ex facere qui autem? Magni reiciendis dicta esse recusandae accusamus ea, officia debitis laboriosam voluptates ullam iste exercitationem atque delectus veniam! Sapiente consequuntur ea minima debitis incidunt a libero! Velit tem, adipisci ex molestiae blanditiis harum dolorem ullam vitae perspiciatis id voluptate impedit, distinctio optio quibusdam? Placeat recusandae voluptas quas nulla quaerat consectetur doloribus totam accusantium. Et perspiciatis accusantium placeat, dolorem non vel. Molestiae repellat accusamus eum alias dolore? Tempore expedita odit saepe!</p></div>
+		<div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab"><ul>
+			<li><p>ariatur dolores, sunt nihil dolorum facilis nulla praesentium laborum. Aperiam aut id accusantium nobis ducimus eligendi, eius quos incidunt praesentium saepe sapiente amet rerum dolorum natus modi? Optio, nost</li>
+			 <li> <p>ariatur dolores, sunt nihil dolorum facilis nulla praesentium laborum. Aperiam aut id accusantium nobis ducimus eligendi, eius quos incidunt praesentium saepe sapiente amet rerum dolorum natus modi? Optio, nost</li>
+			  <li> minus sunt voluptatibus itaque non, voluptas, maxime </p>minus sunt voluptatibus itaque non, voluptas, maxime </p></li>
+		</ul> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto tempora quaerat ullam ab fuga quo possimus dolor totam officia prum. Tempora quam eaque iusto, quisquam corporis sunt. Dicta doloresdolore nam nisi sequi tempora fugiat laboriosam veniam? Ex facere qui autem? Magni reiciendis dicta esse recusandae accusamus ea, officia debitis laboriosam voluptates ullam iste exercitationem atque delectus veniam! Sapiente consequuntur ea minima debitis incidunt a libero! Velit temporibus dignissimos ea voluptates minus commodi, tenetur <p>ariatur dolores, sunt nihil dolorum facilis nulla praesentium laborum. Aperiam aut id accusantium nobis ducimus eligendi, eius quos incidunt praesentium saepe sapiente amet rerum dolorum natus modi? Optio, nost</li>
+		  <li> minus sunt voluptatibus itaque non, voluptas, maxime </p>quisquam excepturi corrupti molestias libero inventore rerum magnam dicta, deserunt maiores cumque amet laboriosam sed mollitia dolorem perferendis ducimus? Atque quibusdam esse quis nisi, mollitia fugiat molestiase perspiciatis id vquas nulla quaerat consectetur doloribus totam accusantium. Et perspiciatis accusantium placeat, dolorem non vel. Molestiae repellat accusamus eum alias dolore? Tempore expedita odit saepe!</p></div>
+	  </div>
+	</div>
+  </div>
+  
+
+</div>
+
+<!-- <div class="container-xl mt-4 "> -->
+    <!-- <h2 class="text-center text-white display-1">Over dit product</h2> -->
+
+
+<!-- </div> -->
+
+
+
+<div class="container-xl mt-4 detail_background_display">
+    <h2 class="text-center text-white display-1">Dit vind je misschien ook lekker..</h2>
+
+	<div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="/assets/images/xradijs.jpg" class="img_carousel d-block w-100" alt="Slide 1">
+			<div class="carousel-caption d-none d-sm-block">
+			  <h5>First slide label</h5>
+			  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="/assets/images/xbosbessen.jpg" class="img_carousel d-block w-100" alt="Slide 2">
+			<div class="carousel-caption d-none d-sm-block">
+			  <h5>Second slide label</h5>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="/assets/images/xdruiven.jpg" class="img_carousel d-block w-100" alt="Slide 3">
+			<div class="carousel-caption d-none d-sm-block">
+			  <h5>Third slide label</h5>
+			  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+			</div>
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</a>
+	  </div>
+
+ 
+</section>

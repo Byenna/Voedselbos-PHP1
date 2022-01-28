@@ -58,8 +58,8 @@ Vue.component('shopping-cart', {
 
                 <div class="row cart-footer justify-content-center">
                     
-                    <a href="/?page=orders" class="col-md-5 btn btn_verder_winkelen mt-3 fs-4">Verder winkelen</a>
-                    <a href="/?page=checkout" class="col-md-3 btn mt-3 fs-4">Afrekenen</a>
+                    <a href="/?page=items" class="col-md-5 btn btn_verder_winkelen mt-3 fs-3"><i class="fs-3 fa fa-arrow-left"></i>Verder winkelen</a>
+                    <a href="/?page=checkout" class="col-md-3 btn mt-3 fs-3">Afrekenen</a>
                     </div>
                 </div>
             </div>

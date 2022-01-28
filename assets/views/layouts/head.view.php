@@ -12,6 +12,9 @@
 	<link rel='stylesheet' href='/node_modules/bootstrap-icons/font/bootstrap-icons.css'>
 	<link rel='stylesheet' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'>
 
+
+
+	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/detail.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/checkout.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/volunteer.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/about.css'>
@@ -30,7 +33,8 @@
 	
 
 	<script src='/assets/js/form-validation.js'></script>
-
+	<script src='/assets/js/third_detail_container.js'></script>
+	<script src='/assets/js/components/detail.js'></script>
 	<script src='/assets/js/components/cart.js'></script>
 	<script src='/assets/js/components/products.js'></script>
 	
