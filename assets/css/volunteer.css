@@ -13,16 +13,17 @@
     margin-bottom: 20px;
     border-radius: 1%;
   }
-  
-/*   
-  p {
-    line-height: 1.6; 
-    font-family: Helvetica;
-    text-align: justify;
-    margin: 0;
-    font-size: 14px;
-  } */
 
 .bg_section_volunteer {
     background-color: #8e8f5c;
+}
+
+.w3-animate-left {
+  position: relative;
+  animation: animateleft 3s;
+}
+
+.w3-animate-right {
+  position: relative;
+  animation: animateright 3s;
 }

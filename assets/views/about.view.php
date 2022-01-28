@@ -12,8 +12,8 @@
 		<div class="row">
 
 			<div class="wrapper">
-				<img class="img-responsive myimage" src="/assets/images/website_images/ed.jpg">
-
+				<img class="w3-container w3-center w3-animate-left myimage" src="/assets/images/website_images/ed.jpg">
+				<div class="w3-center w3-animate-right">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid, quo architecto incidunt
 					molestiae tempore inventore animi. Quasi ullam soluta id dolorum assumenda quisquam earum fuga,
 					debitis rerum dolorem modi!</p>
@@ -38,7 +38,8 @@
 					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
 					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
 					publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-			</div>
+					</div>
+				</div>
 		</div>
 	</div>
 

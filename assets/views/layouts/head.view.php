@@ -8,12 +8,14 @@
 	<title>Voedselbos</title>
 
 	<link rel='icon' href='/assets/images/website_images/logo.png' sizes='32x32'>
+	<link rel='stylesheet' href='/node_modules/w3-css/w3.css'>
 	<link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='/node_modules/bootstrap-icons/font/bootstrap-icons.css'>
 	<link rel='stylesheet' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'>
+	
 
 
-
+	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/third_detail_container.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/detail.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/checkout.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/volunteer.css'>
