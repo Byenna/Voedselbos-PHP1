@@ -1,11 +1,8 @@
-
-  
   .product {
     display: flex;
     justify-content: center;
   }
   
-
   .img_detail {
     width: 85%;
     margin: 12px;
@@ -40,15 +37,17 @@
 
   .detail_background_info {
     background-color: #566436;
-}
-.card_detail {
-    display: flex;
-    justify-content: center; 
-}
-/* third container */
-.img_carousel {
-    padding-left: 28em;
-    padding-bottom: 8em;
-    padding-right: 28em;
-    
-}
+  }
+
+  .card_detail {
+      display: flex;
+      justify-content: center; 
+  }
+  
+  /* third container */
+  .img_carousel {
+      padding-left: 28em;
+      padding-bottom: 8em;
+      padding-right: 28em;
+      
+  }

@@ -11,5 +11,5 @@ function login()
     $result = query($query);
     $data = $result->fetch(PDO::FETCH_ASSOC);
 
-    header('Location: /?page=loginSuccess');
+    header('Location: /?page=login_success');
 }

@@ -13,6 +13,6 @@ function store()
 
     insert($user, 'users');
 
-    header('Location: /?page=registerSuccess');
+    header('Location: /?page=register_success');
 }
 

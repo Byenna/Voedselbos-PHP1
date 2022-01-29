@@ -13,9 +13,6 @@
 	<link rel='stylesheet' href='/node_modules/bootstrap-icons/font/bootstrap-icons.css'>
 	<link rel='stylesheet' href='/node_modules/@fortawesome/fontawesome-free/css/all.css'>
 	
-
-
-	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/third_detail_container.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/detail.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/checkout.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/volunteer.css'>
@@ -24,7 +21,6 @@
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/items.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/nav_bar.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/cart.css'>
-	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/form-validation.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/home_text.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/footer.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles.css'>
@@ -33,17 +29,12 @@
 	<script src='/node_modules/axios/dist/axios.js'></script>
 	<script src='/node_modules/vue/dist/vue.js'></script>
 	
-
-	<script src='/assets/js/form-validation.js'></script>
-	<script src='/assets/js/third_detail_container.js'></script>
 	<script src='/assets/js/components/detail.js'></script>
 	<script src='/assets/js/components/cart.js'></script>
 	<script src='/assets/js/components/products.js'></script>
-	
 </head>
 
 <body>
-
 	<!-- start Vue section -->
 	<main id='app'>
 		<div class='layer'></div>

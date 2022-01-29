@@ -6,7 +6,7 @@
 .card_body_items {
     height: 20em;
     width: auto;
-  
+
 }
 
 .space_above_content {
@@ -16,10 +16,6 @@
 .space_under_content {
     height: 13em;
 }
-
-/* .background_section_items {
-    background-color: rgba(86,100,54,80%); 
-} */
 
 .bg-overlay {
     background-color: rgba(86,100,54,65%); 
@@ -32,9 +28,3 @@
 .img_items:hover {
 	transform: scale(1.1);
 }
-
-/* #home_text_products {
-    margin: 5em;
-    padding: 1em;
-    background-color: none;
-} */
