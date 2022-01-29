@@ -17,15 +17,15 @@
 	  <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
 		
 	  <li class="nav-item" role="presentation">
-		  <a class="nav-link active fs-2" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Omschrijving</a>
+		  <a class="text-success nav-link active fs-2" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Omschrijving</a>
 		</li>
 	   
 		<li class="nav-item" role="presentation">
-		  <a class="nav-link fs-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specificatie</a>
+		  <a class="text-success nav-link fs-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specificatie</a>
 		</li>
   
 		<li class="nav-item" role="presentation">
-		  <a class="nav-link fs-2" id="third-tab" data-bs-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Bezorging</a>
+		  <a class="text-success nav-link fs-2" id="third-tab" data-bs-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Bezorging</a>
 		</li>
 	   
 	  </ul>

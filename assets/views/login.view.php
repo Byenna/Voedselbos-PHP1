@@ -37,9 +37,8 @@
         </div>
       </form>
     </div>
-  </div>
-
-  <div class="row">
+     <div class="row">
     <div class="col space_under_content"></div>
+  </div>
   </div>
 </section>

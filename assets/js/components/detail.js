@@ -10,6 +10,7 @@ Vue.component('product-details', {
     template: `
       <ul>
         <li class='fs-3' v-for="detail in details">{{ detail }}</li>
+       
       </ul>
     `
   })
@@ -43,11 +44,11 @@ Vue.component('product-details', {
             <div  v-for="variant in variants" 
      :key="variant.variantId">
     <ul >
-        <li class="fs-3" @mouseover="updateProduct(variant.variantImage)">{{ variant.variantColor }}</li></p>
+        <li class="btn btn-outline-success fs-3" @mouseover="updateProduct(variant.variantImage)">{{ variant.variantColor }}</li></p>
       </ul>
         </div>
   
-            <button class=" mb-4 btn" v-on:click="addToCart" 
+            <button class=" btn-outline-success mb-4 btn" v-on:click="addToCart" 
               :disabled="!inStock"
               :class="{ disabledButton: !inStock }"
               >
