@@ -1,0 +1,30 @@
+.img_items {
+    height: 20em;
+    width: auto;
+}
+
+.card_body_items {
+    height: 20em;
+    width: auto;
+
+}
+
+.space_above_content {
+    height: 7em;
+}
+
+.space_under_content {
+    height: 13em;
+}
+
+.bg-overlay {
+    background-color: rgba(86,100,54,65%); 
+}
+
+.img_items {
+	transition: all 1s;
+}
+
+.img_items:hover {
+	transform: scale(1.1);
+}

@@ -22,37 +22,23 @@ require 'core/core.php';
 // This function is in core/core.php file
 set_exception_handler('exception_handler');
 
+if (!isAjax()) {
+    // Load the HTML <head> section
+    require 'assets/views/layouts/head.view.php';
+   
+    $content = [];
+    // dd($products);
 
+    require 'assets/views/header.view.php';
 
-// Load the HTML <head> section
-require 'assets/views/layouts/head.view.php';
+    // Inject code from controller
+    require 'core/bootstrap.php';
 
-require 'assets/views/header.view.php';
-// require 'assets/views/about.view.php';
+    // Close it with the bottom end </body> and </html> tags
+    require 'assets/views/footer.view.php';
 
-require 'assets/views/landingpage.view.php';
-
-// Inject code from controller
-require 'core/bootstrap.php';
-
-
-// Close it with the bottom end </body> and </html> tags
-require 'assets/views/footer.view.php';
-
-// Close HTML <body> and <html> section
-require 'assets/views/layouts/bottom.view.php';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // Close HTML <body> and <html> section
+    require 'assets/views/layouts/bottom.view.php';
+} else {
+    require 'core/bootstrap.php';
+}

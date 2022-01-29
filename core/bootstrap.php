@@ -6,9 +6,6 @@ $page = getPage();
 // Get action from URL
 $function = getFunction();
 
-
-// dd($_POST['password'], password_verify($_POST['password'], $data['password']));
-// dd($_SERVER['DOCUMENT_ROOT'] . '/controllers/add_to_cart.php');
 // dd("page = " . $page, "function = " . $function);
 
 // M = Model (data)

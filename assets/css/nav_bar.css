@@ -1,0 +1,12 @@
+.scrolled {
+    background-color: rgba(86,100,54,65%); 
+    transition: background 3s;
+}
+
+.btn_login {
+    margin-right: 1px;
+}
+
+.btn_register {
+    margin-right: 1px;
+}
