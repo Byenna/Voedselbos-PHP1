@@ -1,4 +1,4 @@
-<section class="bg-overlay ">
+<section class="bg-overlay">
 
 	<div class="row">
 		<div class="col space_above_content"></div>
