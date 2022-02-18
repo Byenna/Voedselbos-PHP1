@@ -3,9 +3,10 @@ This is an assignment from the Code Gorilla bootcamp using flat php.
 <img src="/assets/images/website_images/woman_eats_apple.jpg">
 
 
+
 # Colors used on this site
 
-<img src='/assets/images/website_images/palette.png' width="200" height="100">
+<img src='/assets/images/website_images/Screenshot from 2022-02-18 15-12-52.png.gnome-photos'>
 
 /* CSS HEX */
 --verdigris: #566436;
